@@ -20,9 +20,9 @@ clock = pygame.time.Clock()
 # 1. 사용자 게임 초기화 (배경 화면, 게임 이미지, 좌표, 속도, 폰트 등)
 
 # 배경 그림 선택
-background = pygame.image.load("D:/Projects/Python/[00]Game/background.png")
-player = pygame.image.load("D:/Projects/Python/[00]Game/character.png")
-enemy = pygame.image.load("D:/Projects/Python/[00]Game/enemy.png")
+background = pygame.image.load("D:/Projects/Python/[00]Game/background_quiz.png")
+player = pygame.image.load("D:/Projects/Python/[00]Game/character_quiz.png")
+enemy = pygame.image.load("D:/Projects/Python/[00]Game/enemy_quiz.png")
 
 # 플레이어, 적 화면에 배치 충동 처리
 

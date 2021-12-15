@@ -1,3 +1,0 @@
-=>
-게임 만들기 사전 준비
-1. 콘솔창에 pip install pygame

@@ -19,9 +19,9 @@ clock = pygame.time.Clock()
 
 # 1. 사용자 게임 초기화 (배경 화면, 게임 이미지, 좌표, 속도, 폰트 등)
 # 배경만들기
-background = pygame.image.load("D:/Projects/Python/[00]Game/background.png")
+background = pygame.image.load("D:/Projects/Python/[00]Game/background_quiz.png")
 
-character = pygame.image.load("D:/Projects/Python/[00]Game/character.png")
+character = pygame.image.load("D:/Projects/Python/[00]Game/character_quiz.png")
 character_size = character.get_rect().size
 character_width = character_size[0]
 character_height = character_size[1]
@@ -33,7 +33,7 @@ to_x = 0
 character_speed = 10
 
 # 떵 만들기
-ddong = pygame.image.load("D:/Projects/Python/[00]Game/enemy.png")
+ddong = pygame.image.load("D:/Projects/Python/[00]Game/enemy_quiz.png")
 ddong_size = ddong.get_rect().size
 ddong_width = ddong_size[0]
 ddong_height = ddong_size[1]
